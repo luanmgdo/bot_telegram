@@ -13,7 +13,7 @@ def agora(update, context):
         now.month,
         now.year,
         now.hour,
-        how.minute,
+        now.minute,
         now.second
     )
     print(time_stamp)
